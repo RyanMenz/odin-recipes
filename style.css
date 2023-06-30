@@ -1,18 +1,85 @@
-* {
-    max-width: 1000px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f6d8ac;
-    color: #2a6592;
+html {
+    box-sizing: border-box;
+  }
+  *,  *::before,  *::after {
+    box-sizing: inherit;
+  }
+
+/*~!~!~!~!~DESCENDANT SELECTORS~!~!~!~!~*/
+
+blockquote p {
+    max-width: 50%;
+    margin-left: 25%;
+    font-weight: bold;
 }
 
-img {
-    margin-left: 100px;
+nav ul {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+/*~!~!~!~!~CLASS SELECTORS~!~!~!~!~*/
+
+.main_card, nav {
+    border-radius: 30px;
+    margin: 40px;
+    max-width: 800px;
+    border: 6px solid #C32F27;
+    background-color: #F7B538;
+}
+
+.main_card {
+    padding-bottom: 40px;
+}
+
+.image_container {
+    text-align: center;
+}
+
+/*~!~!~!~!~TYPE SELECTORS~!~!~!~!~*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D8572A;
+    margin: 10px;
+}
+
+a {
+    margin: 0;
 }
 
 h1 {
-    color: #7e9a9a;
+    padding: 30px;
+    text-align: center;
+    color: #D8572A;
 }
 
 h2 {
-    color: #db9833;
+    margin-left: 40px;
+    color: #780116;
+}
+
+body {
+    margin: 0px;
+    background-color: #DB7C26;
+}
+
+nav {
+    border-radius: 15px;
+    /* Sticky header
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%
+    */
+}
+
+p {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+img {
+    border: 6px solid #DB7C26;
+    border-radius: 30px;
 }

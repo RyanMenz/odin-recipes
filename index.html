@@ -7,18 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Menz Menu</h1>
-    <h2>A reminder</h2>
-    <p>It is all too easy to feel that cooking is a burden, a distraction, and a chore.  Let this quote serve as a reminder every time you pull up a recipe to cook that you are about to partake in an ancient, life-sustaining ritual and to find joy in the mundane routines that life is full of.</p>
-    <blockquote>
-        <p>"One of the very nicest things about life is the way we must regularly stop whatever it is we are doing and devote our attention to eating."</p>-Luciano Pavarotti</p>
-    </blockquote>
-    <img src="./images/pavarotti.png" alt="Luciano Pavarotti in his kitchen dumping three boxes of spaghetti into a boiling pot." width="auto" height="500">
-    <h2>Recipes</h2>
-    <ul>
-        <li><a href="recipes/black_pepper_tofu.html">Black Pepper Tofu</a></li>
-        <li><a href="recipes/chickpea_curry.html">Chickpea Curry</a></li>
-        <li><a href="recipes/pineapple_fried_rice.html">Pineapple Fried Rice</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="main_card">
+        <h1>Menz Menu</h1>
+        <h2>A reminder</h2>
+        <p>It is all too easy to feel that cooking is a burden, a distraction, and a chore.  Let this quote serve as a reminder every time you pull up a recipe to cook that you are about to partake in an ancient, life-sustaining ritual and to find joy in the mundane routines that life is full of.</p>
+        <div class="image_container">   <!--Put image in div so I can center with "text-align"-->
+            <img src="./images/pavarotti.png" alt="Luciano Pavarotti in his kitchen dumping three boxes of spaghetti into a boiling pot." width="50%" height="auto">
+        </div>
+        <blockquote>
+            <p>"One of the very nicest things about life is the way we must regularly stop whatever it is we are doing and devote our attention to eating."</p>
+            <p>-Luciano Pavarotti</p>
+        </blockquote>
+        <h2 id="recipes">Recipes</h2>
+        <ul>
+            <li><a href="recipes/black_pepper_tofu.html">Black Pepper Tofu</a></li>
+            <li><a href="recipes/chickpea_curry.html">Chickpea Curry</a></li>
+            <li><a href="recipes/pineapple_fried_rice.html">Pineapple Fried Rice</a></li>
+        </ul>
+    </div>
 </body>
 </html>
