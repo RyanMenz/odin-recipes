@@ -8,8 +8,8 @@ html {
 /*~!~!~!~!~DESCENDANT SELECTORS~!~!~!~!~*/
 
 blockquote p {
-    max-width: 50%;
-    margin-left: 25%;
+    max-width: 76%;
+    margin-left: 12%;
     font-weight: bold;
 }
 
@@ -22,7 +22,7 @@ nav ul {
 
 .main_card, nav {
     border-radius: 30px;
-    margin: 40px;
+    margin: 40px auto;
     max-width: 800px;
     border: 6px solid #C32F27;
     background-color: #F7B538;
@@ -40,7 +40,7 @@ nav ul {
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #D8572A;
+    color: #780116;
     margin: 10px;
 }
 
